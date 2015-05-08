@@ -14,9 +14,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function () {
     return gulp.src('sass/*.scss')
            .pipe(plumber())
-           .pipe(sass({
-				includePaths: require('node-neat').includePaths
-           }))
+           .pipe(sass())
            .pipe(gulp.dest('css'));
 });
 

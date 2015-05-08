@@ -19,3 +19,11 @@ button {
 * {
   outline: 0 none !important;
   -webkit-tap-highlight-color: transparent; }
+
+.punkbit header {
+  text-align: center; }
+  .punkbit header .container-logo {
+    max-width: 500px;
+    display: inline-block; }
+    .punkbit header .container-logo img {
+      width: 100%; }

@@ -29,7 +29,18 @@ button {
 
 .punkbit {
 
+	header {
+		text-align: center;
 
+		.container-logo {
+			max-width: 500px;
+			display: inline-block;
+			
+			img {
+				width: 100%;
+			}
+		}
 
+	}
 
 }

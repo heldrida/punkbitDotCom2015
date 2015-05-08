@@ -19,7 +19,7 @@ button {
 
 * {
   outline: 0 none !important;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .punkbit {
   width: 100%;
@@ -37,7 +37,8 @@ button {
       max-width: 768px;
       display: inline-block; }
       .punkbit header .container-logo img {
-        width: 75%; }
+        width: 75%;
+        padding-bottom: 30px; }
     .punkbit header p {
       font-family: "Special Elite", cursive;
       font-size: 24px;

@@ -19,7 +19,7 @@ button {
 
 * {
   outline: 0 none !important;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 .punkbit {
   width: 100%;
@@ -32,7 +32,8 @@ button {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin-top: -30px; }
+    margin-top: -30px;
+    color: #fff; }
     .punkbit header .container-logo {
       max-width: 768px;
       display: inline-block; }
@@ -42,8 +43,17 @@ button {
     .punkbit header p {
       font-family: "Special Elite", cursive;
       font-size: 24px;
-      line-height: 36px; }
+      line-height: 36px;
+      text-shadow: 0px 3px 49px -2px rgba(0, 0, 0, 0.45); }
       .punkbit header p span {
         margin-left: 10px;
         color: #E00;
         font-weight: bold; }
+  .punkbit video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.95; }
